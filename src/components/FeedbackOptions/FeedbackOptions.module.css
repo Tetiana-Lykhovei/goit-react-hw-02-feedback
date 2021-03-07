@@ -1,0 +1,25 @@
+.buttons {
+  display: flex;
+}
+
+.button {
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  width: 100px;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.button:hover {
+  font-size: 15px;
+  transform: scale(1.15);
+  background-color: rgb(250, 89, 14);
+  color: #fff;
+}
