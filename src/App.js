@@ -38,7 +38,10 @@ class App extends Component {
     return (
       <div className="App">
         <Section title={"Please leave feedback"}>
-          <FeedbackOptions onLeaveFeedback={onLeaveFeedback} />
+          <FeedbackOptions
+            options={["good", "neutral", "bad"]}
+            onLeaveFeedback={onLeaveFeedback}
+          />
         </Section>
 
         {countTotalFeedback > 0 ? (
